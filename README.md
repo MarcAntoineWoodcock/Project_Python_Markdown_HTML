@@ -41,30 +41,5 @@ I will build a command line tool to generate the static site files. It will take
 
 
 
-#Converting markdown to HTML
-I'm going at least convert the following syntaxes:
-
-#, a level 1 title in <h1>
-##, a level 2 title in <h2>
-###, a level 3 title in <h3>
-Convert unordered lists to <ul> and <li>
-Convert URLs (http://something.com) to <a href="http://something.com"> http://something.com </a>
-* a text *, an important text in <em> a text </ em>
-You can do these conversions using any of the following:
-
-the basic functions of Python for strings
-regular expressions (https://docs.python.org/en/3/library/re.html)
-a community package
-https://github.com/Python-Markdown/markdown
-https://github.com/trentm/python-markdown2
-
-# Code quality
-I will make sure to respect:
-
-PEP 8: https://www.python.org/dev/peps/pep-0008/ (you can help with https://github.com/ambv/black and https://github.com/hhatto/ autopep8)
-PEP 20: https://www.python.org/dev/peps/pep-0020/
-
-
-
 
 
