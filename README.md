@@ -33,5 +33,38 @@ I will build a command line tool to generate the static site files. It will take
 - o ./one_other_folder or --output-directory ./one_other_folder: the path of the folder where the files generated for the static site will be put
   - if the file already exists, you are free to either erase it or write it in for updates (this will be explained in the manual of your tool)
   - you can choose the naming convention you like for the generated files, for example you can use as prefix the name of the corresponding markdown file (this will also be explained)
+  
 -t ./other_folder or --template-directory ./other_folder: possibly the folder containing templates of web pages to be completed
 -h or --help: to display help to explain command parameters
+
+
+
+
+
+#Converting markdown to HTML
+I'm going at least convert the following syntaxes:
+
+#, a level 1 title in <h1>
+##, a level 2 title in <h2>
+###, a level 3 title in <h3>
+Convert unordered lists to <ul> and <li>
+Convert URLs (http://something.com) to <a href="http://something.com"> http://something.com </a>
+* a text *, an important text in <em> a text </ em>
+You can do these conversions using any of the following:
+
+the basic functions of Python for strings
+regular expressions (https://docs.python.org/en/3/library/re.html)
+a community package
+https://github.com/Python-Markdown/markdown
+https://github.com/trentm/python-markdown2
+
+# Code quality
+I will make sure to respect:
+
+PEP 8: https://www.python.org/dev/peps/pep-0008/ (you can help with https://github.com/ambv/black and https://github.com/hhatto/ autopep8)
+PEP 20: https://www.python.org/dev/peps/pep-0020/
+
+
+
+
+
