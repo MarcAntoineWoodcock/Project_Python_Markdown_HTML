@@ -35,6 +35,7 @@ I will build a command line tool to generate the static site files. It will take
   - you can choose the naming convention you like for the generated files, for example you can use as prefix the name of the corresponding markdown file (this will also be explained)
   
 -t ./other_folder or --template-directory ./other_folder: possibly the folder containing templates of web pages to be completed
+
 -h or --help: to display help to explain command parameters
 
 
