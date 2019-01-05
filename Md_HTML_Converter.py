@@ -19,7 +19,9 @@ def main():
     file_converti = glob.glob(
         "/home/marc-antoine/Documents/workspace_python/Md_HTML/site_statique/*.txt"
     )
+    
     path = file[0]
+    
     file_html = file_converti[0]
     with open(path, "r") as fichiermarkdown:
         #  Lecture du fichier qui contient le code markdown
