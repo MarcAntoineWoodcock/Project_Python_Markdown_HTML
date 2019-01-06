@@ -35,7 +35,7 @@ I will at least convert the following syntaxes:
     Convert URLs (http://something.com) to <a href="http://something.com"> http://something.com </a>
     * a text *, an important text in <em> a text </ em>
 
-You can do these conversions using any of the following:
+I will do these conversions using any of the following:
 
     - the basic functions of Python for strings
     - regular expressions (https://docs.python.org/en/3/library/re.html)
@@ -49,8 +49,7 @@ I will build a command line tool to generate the static site files. It will take
 
 - i ./a_folder or --input-directory ./un_folder: the path of the source file folder (containing the markdown files)
 - o ./one_other_folder or --output-directory ./one_other_folder: the path of the folder where the files generated for the static site will be put
-  - if the file already exists, you are free to either erase it or write it in for updates (this will be explained in the manual of your tool)
-  - you can choose the naming convention you like for the generated files, for example you can use as prefix the name of the corresponding markdown file (this will also be explained)
+ 
   
 -t ./other_folder or --template-directory ./other_folder: possibly the folder containing templates of web pages to be completed
 
